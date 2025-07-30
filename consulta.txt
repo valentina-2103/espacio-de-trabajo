@@ -1,0 +1,29 @@
+
+-¿Qué es diseño responsivo?
+Es cuando una página web se acomoda sola para verse bien en cualquier pantalla: en un celular, una tableta o un computador.
+Así no se ve desordenada ni muy pequeña.
+
+-¿Qué es un grid en diseño responsivo?
+Es como una cuadrícula o tabla invisible que ayuda a organizar las cosas en filas y columnas.
+En pantallas grandes puede tener varias columnas, y en pantallas pequeñas se pone en una sola columna.
+
+-¿Qué dispositivos se deben tener en cuenta?
+Hay que pensar en estos tres:
+
+Celulares (pantallas pequeñas)
+
+Tabletas (pantallas medianas)
+
+Computadores (pantallas grandes)
+
+La idea es que la página se vea bien en todos.
+
+-¿El diseño responsivo depende del navegador?
+Sí, un poco.
+Funciona bien si usas un navegador moderno como Chrome, Firefox, Safari o Edge.
+En navegadores muy viejos puede que no se vea igual.
+
+-¿Qué es Flexbox en diseño responsivo?
+Es una forma fácil de acomodar las cosas en una página.
+Flexbox hace que los elementos se ajusten solos al espacio que hay, ya sea en una fila o uno debajo del otro.
+Es muy útil para que todo se vea ordenado en cualquier pantalla
