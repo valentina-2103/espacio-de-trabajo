@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenedores actividad</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>Ejemplo de creación de 3 columnas con la clase .col:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: #FDFFB6;">Columna</div>
+            <div class="col" style="background-color: #FFD6A5;">Columna</div>
+            <div class="col" style="background-color: #FFADAD;">Columna</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de creación de 3 columnas con la clase .col-xx:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4" style="background-color: #A0C4FF;">Columna</div>
+            <div class="col-4" style="background-color: #9BF6FF;">Columna</div>
+            <div class="col-4" style="background-color: #CAFFBF;">Columna</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de dos columnas, una que ocupa 4 espacios y otra que ocupa 8 espacios:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4" style="background-color: #FFC6FF;">Contenedor de 4 columnas</div>
+            <div class="col-8" style="background-color: #BDB2FF;">Contenedor de 8 columnas</div>
+        </div>
+    </div>
+
+    <p>Ejemplo de dos columnas, una que ocupa 4 espacios y otra que ocupa 8 espacios cuando el tamaño de pantalla es
+        inferior a 720px. Cuando el tamaño es superior los contenedores ocuparán 6 espacios cada uno:</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-6" style="background-color: #D0F4DE;">Contenedor 1</div>
+            <div class="col-8 col-md-6" style="background-color: #ff7f7f;">Contenedor 2</div>
+        </div>
+    </div>
+</body>
+
+</html>
